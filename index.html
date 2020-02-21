@@ -7,15 +7,17 @@
         <h1>Stats Roller</h1>
         <p>D&D stats rolling.  Click the button to roll for all 6 stats.  Rolls 4d6 for each and drops the lowest one.</p>
 
-        <button type="button" onclick=diceRolls()>Roll</button>
+        <button class="rolls_button" type="button" onclick=diceRolls()>Roll</button>
 
-        <p id="0"></p>
-        <p id="1"></p>
-        <p id="2"></p>
-        <p id="3"></p>
-        <p id="4"></p>
-        <p id="5"></p>
-        <h3 id="total"></h3>
+        <div class="rolls_display">
+            <p id="0"></p>
+            <p id="1"></p>
+            <p id="2"></p>
+            <p id="3"></p>
+            <p id="4"></p>
+            <p id="5"></p>
+            <h3 id="total"></h3>
+        </div>
 
         <script type="text/javascript" src="index.js"></script> 
     </body>

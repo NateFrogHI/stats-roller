@@ -5,4 +5,18 @@ body {
 h1 {
     color: blue;
     text-align: center;
+    font-size: 5vw;
+}
+
+p {
+    font-size: 2vw;
+}
+
+.rolls_display {
+    font-size: 3vw;
+}
+
+.rolls_button {
+    font-size: 3vw;
+    background-color: gray;
 }
