@@ -2,21 +2,44 @@ body {
     background-color: lightblue;
 }
 
-h1 {
-    color: blue;
-    text-align: center;
-    font-size: 5vw;
+@media screen and (min-width: 601px) {
+    h1 {
+        color: blue;
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    p {
+        font-size: 3vw;
+    }
+
+    .rolls_display {
+        font-size: 3vw;
+    }
+
+    .rolls_button {
+        font-size: 3vw;
+        background-color: gray;
+    }
 }
 
-p {
-    font-size: 3vw;
-}
+@media screen and (max-width: 600px) {
+    h1 {
+        color: blue;
+        text-align: center;
+        font-size: 42px;
+    }
 
-.rolls_display {
-    font-size: 3vw;
-}
+    p {
+        font-size: 32px;
+    }
 
-.rolls_button {
-    font-size: 5vw;
-    background-color: gray;
+    .rolls_display {
+        font-size: 32px;
+    }
+
+    .rolls_button {
+        font-size: 32px;
+        background-color: gray;
+    }
 }
